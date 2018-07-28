@@ -26,7 +26,7 @@ make build_base_image && TRACK=python make build_track_image
 
 ## Usage
 
-Run a track's container (requires an [exercism.io CLI token](https://exercism.io/my/settings)):
+Run a track's container (requires an [Exercism.io CLI token](https://exercism.io/my/settings)):
 
 ```bash
 TOKEN=<my-exercism-token> \
