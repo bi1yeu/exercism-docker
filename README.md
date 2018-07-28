@@ -44,13 +44,13 @@ root@68483403b74e:/workspace/python# exercism download --exercise=hello-world --
 
 ### [Clojure](https://exercism.io/my/tracks/clojure)
 
-Local port 4000 will be bound to the nrepl port on the container, but this can be overridden with an environment variable, e.g.:
+Local port 4000 will be bound to the nrepl port on the container, but this can be overridden with an env var, e.g.:
 
 ```bash
 LEIN_REPL_PORT=4444 \
-TOKEN=<my-exercism-token> \
-TRACK=clojure \
-make run_track
+  TOKEN=<my-exercism-token> \
+  TRACK=clojure \
+  make run_track
 ```
 
 ### [Python](https://exercism.io/my/tracks/python)
