@@ -5,7 +5,7 @@ Here are Docker images that can be used to quickly get up and running with the o
 ## Installation
 
 Requires [Docker](https://docs.docker.com/install/).
-, I
+
 Build the base Docker image:
 
 ```bash
