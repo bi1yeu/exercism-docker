@@ -1,11 +1,11 @@
 # Exercism Docker
 
-Here are Docker images that can be used to quickly get up and running with the online code learning platform [Exercism](https://exercism.io). Part of the experience of learning a new programming language is setting up the tooling and environment, but it's not always desirable to install a lot of software just to experiment with a new language. This project aims to use containerization to isolate the Exercism track environment from the rest of the host system. Not affiliated with Exercism.
+Here are Docker images that can be used to quickly get up and running with the online code learning platform [Exercism](https://exercism.io). Part of the experience of learning a new programming language is setting up the tooling and environment, but it's not always desirable to install a lot of software just to experiment with a new language. This project aims to use containerization to isolate the Exercism track environment from the rest of the host system. Not affiliated with Exercism, Inc.
 
 ## Installation
 
 Requires [Docker](https://docs.docker.com/install/).
-
+, I
 Build the base Docker image:
 
 ```bash
