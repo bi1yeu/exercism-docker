@@ -42,6 +42,14 @@ root@68483403b74e:/workspace/python# exercism download --exercise=hello-world --
 
 ## Supported Tracks:
 
+### [C++](https://exercism.io/my/tracks/cpp)
+
+The `TRACK` environment variable for the above usage commands is `cpp`, e.g.
+
+```bash
+TOKEN=<my-exercism-token> TRACK=cpp make run_track
+```
+
 ### [Clojure](https://exercism.io/my/tracks/clojure)
 
 Local port 4000 will be bound to the nrepl port on the container, but this can be overridden with an env var, e.g.:
