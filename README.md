@@ -62,3 +62,4 @@ LEIN_REPL_PORT=4444 \
 ```
 
 ### [Python](https://exercism.io/my/tracks/python)
+### [Ruby](https://exercism.io/my/tracks/ruby)
