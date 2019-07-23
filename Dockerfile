@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 
-MAINTAINER bilyeu.matt@gmail.com
+MAINTAINER matt@matthewbilyeu.com
 
 RUN apt-get update && \
     apt-get -y dist-upgrade && \

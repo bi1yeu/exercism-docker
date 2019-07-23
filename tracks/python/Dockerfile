@@ -1,6 +1,6 @@
 FROM exercism:latest
 
-MAINTAINER bilyeu.matt@gmail.com
+MAINTAINER matt@matthewbilyeu.com
 
 ENV TRACK python
 
