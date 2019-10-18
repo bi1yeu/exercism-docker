@@ -28,7 +28,6 @@ RUN echo 'export PATH="$HOME/.rbenv/bin:$HOME/.rbenv/shims:$PATH"' >> ~/.bashrc
 RUN echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 ENV PATH="/root/.rbenv/bin:/root/.rbenv/shims:${PATH}"
 RUN eval "$(rbenv init -)"
-RUN curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash
 RUN git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 RUN rbenv install 2.6.3
 RUN rbenv global 2.6.3
