@@ -61,6 +61,7 @@ LEIN_REPL_PORT=4444 \
   make run_track
 ```
 
+### [Java](https://exercism.io/my/tracks/java)
 ### [Python](https://exercism.io/my/tracks/python)
 ### [Ruby](https://exercism.io/my/tracks/ruby)
 
