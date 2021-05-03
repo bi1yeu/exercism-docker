@@ -1,2 +1,3 @@
 workspace/*
 .env
+.DS_Store
