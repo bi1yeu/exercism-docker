@@ -1,6 +1,6 @@
 # Exercism Docker
 
-Here are Docker images that can be used to quickly get up and running with the online code learning platform [Exercism](https://exercism.io). Part of the experience of learning a new programming language is setting up the tooling and environment, but it's not always desirable to install a lot of software just to experiment with a new language. This project aims to use containerization to isolate the Exercism track environment from the rest of the host system. Not affiliated with Exercism, Inc.
+Here are Docker images that can be used to quickly get up and running with the online code learning platform [Exercism](https://exercism.org). Part of the experience of learning a new programming language is setting up the tooling and environment, but it's not always desirable to install a lot of software just to experiment with a new language. This project aims to use containerization to isolate the Exercism track environment from the rest of the host system. Not affiliated with Exercism, Inc.
 
 ## Installation
 
@@ -26,7 +26,7 @@ make build_base_image && TRACK=python make build_track_image
 
 ## Usage
 
-Run a track's container (requires an [Exercism.io CLI token](https://exercism.io/my/settings)):
+Run a track's container (requires an [exercism.org CLI token](https://exercism.org/settings)):
 
 ```bash
 TOKEN=<my-exercism-token> \
@@ -42,7 +42,7 @@ root@68483403b74e:/workspace/python# exercism download --exercise=hello-world --
 
 ## Supported Tracks:
 
-### [C++](https://exercism.io/my/tracks/cpp)
+### [C++](https://exercism.org/tracks/cpp)
 
 The `TRACK` environment variable for the above usage commands is `cpp`, e.g.
 
@@ -50,7 +50,7 @@ The `TRACK` environment variable for the above usage commands is `cpp`, e.g.
 TOKEN=<my-exercism-token> TRACK=cpp make run_track
 ```
 
-### [Clojure](https://exercism.io/my/tracks/clojure)
+### [Clojure](https://exercism.org/tracks/clojure)
 
 Local port 4000 will be bound to the nrepl port on the container, but this can be overridden with an env var, e.g.:
 
@@ -61,7 +61,7 @@ LEIN_REPL_PORT=4444 \
   make run_track
 ```
 
-### [Java](https://exercism.io/my/tracks/java)
-### [Python](https://exercism.io/my/tracks/python)
-### [Ruby](https://exercism.io/my/tracks/ruby)
-### [Go](https://exercism.io/my/tracks/go)
+### [Java](https://exercism.org/tracks/java)
+### [Python](https://exercism.org/tracks/python)
+### [Ruby](https://exercism.org/tracks/ruby)
+### [Go](https://exercism.org/tracks/go)
