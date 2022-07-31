@@ -1,4 +1,4 @@
-FROM exercism:latest
+FROM  --platform=linux/amd64 exercism:latest
 
 MAINTAINER liang.shi@protonmail.com
 
