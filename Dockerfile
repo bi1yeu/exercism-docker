@@ -10,8 +10,8 @@ RUN apt-get update && \
     vim && \
     apt-get clean
 
-RUN wget https://github.com/exercism/cli/releases/download/v3.0.5/exercism-linux-64bit.tgz && \
-    tar xzf exercism-linux-64bit.tgz && \
+RUN wget https://github.com/exercism/cli/releases/download/v3.5.4/exercism-3.5.4-linux-x86_64.tar.gz && \
+    tar xzf exercism-3.5.4-linux-x86_64.tar.gz && \
     mv exercism /usr/local/bin/
 
 RUN mkdir /workspace

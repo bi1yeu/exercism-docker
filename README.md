@@ -34,10 +34,10 @@ TOKEN=<my-exercism-token> \
   make run_track
 ```
 
-Running the above command will drop you into a bash prompt on the running container. Exercism track code is saved in the `/workspace` directory on the container, which is mounted from `./workspace` on the host machine in the root directory of this project. On the container, you can use the `exercism` CLI tool to download exercises, e.g.:
+Running the above command will drop you into a bash prompt on the running container. Exercism track code is saved in the `/workspace` directory on the container, which is mounted from `./workspace` on the host machine in the root directory of this project. On the container, you can use the [`exercism` CLI tool](https://exercism.org/docs/using/solving-exercises/working-locally#h-downloading-the-exercise) to download exercises, e.g.:
 
 ```bash
-root@68483403b74e:/workspace/python# exercism download --exercise=hello-world --track=python
+root@68483403b74e:/workspace/python# exercism download --track=python --exercise=hello-world
 ```
 
 ## Supported Tracks:
